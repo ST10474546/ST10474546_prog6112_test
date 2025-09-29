@@ -21,9 +21,10 @@ public class CricketApp {
         CricketRunsScored player = new CricketRunsScored(batsman, stadium, runs);
 
         // Display output
-        System.out.println("\nTHE CRICKET PLAYER: " + player.getBatsman());
-        System.out.println("THE STADIUM NAME: " + player.getStadium());
-        System.out.println("THE TOTAL RUNS SCORED: " + player.getRunsScored());
+        System.out.println("The cricketer name: " + player.getBatsman());
+        System.out.println("Enter the stadium: " + player.getStadium());
+        System.out.println("Enter the total runs scored by " + player.getBatsman() + " at " + player.getStadium() + 
+                ": " + player.getRunsScored());
 
         sc.close();
     }
